@@ -1,0 +1,9 @@
+{
+  "canvas": { "width": 1080, "height": 1920 },
+  "layersOrder": ["shadow","upperLeg_L","lowerLeg_L","foot_L","upperLeg_R","lowerLeg_R","foot_R","torso","upperArm_L","lowerArm_L","hand_L","upperArm_R","lowerArm_R","hand_R","head","hair_back","eyes","mouth","hair_front","accessories"],
+  "presets": {
+    "bollywood": { "frames": 60, "fps": 30 },
+    "dabke": { "frames": 60, "fps": 30 },
+    "hiphop": { "frames": 60, "fps": 30 }
+  }
+}
