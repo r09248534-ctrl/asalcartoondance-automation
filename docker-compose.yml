@@ -1,16 +1,14 @@
-``yaml
 version: '3.8'
 
 services:
-  renderer:
-    build: ./renderer
-    image: asal-renderer:latest
-    restart: unless-stopped
-    volumes:
-      - ./assets:/app/assets
-      - ./outputs:/app/outputs
-    environment:
-      - PORT=3000
-    ports:
-      - "3000:3000"
-```
+renderer:
+build: ./renderer
+image: asal-renderer:latest
+restart: unless-stopped
+volumes:
+- ./assets:/app/assets
+- ./outputs:/app/outputs
+environment:
+- PORT=3000
+ports:
+- "3000:3000"
