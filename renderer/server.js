@@ -74,4 +74,6 @@ app.post('/render', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => console.log(`Renderer listening on port ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Server running on ${PORT}`);
+});
